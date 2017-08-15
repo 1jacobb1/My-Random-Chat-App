@@ -26,6 +26,7 @@
  */
 	Router::connect('/', array('controller' => 'home', 'action' => 'index'));
 	Router::connect('/chat', array('controller' => 'chat', 'action' => 'index'));
+	Router::connect('/angular', array('controller' => 'angular', 'action' => 'index'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
